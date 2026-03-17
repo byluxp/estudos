@@ -8,7 +8,7 @@ Aulas:
 
 ## 📚📚 Como eu entendi:
 
-📊 Os dados são conjuntos de informações com um contexto, um vinculo. Uma data de nascimento é apenas uma data se não é dado o contexto adequado.  
+📊 Os dados são conjuntos de fatos que com um contexto viram **informações**. Uma data de nascimento é apenas um dado se não é dado o contexto adequado.  
 Uma data sem contexto poderia ser:
   - Uma data de início de contrato.
   - Uma data de acontecimento de um fato.
