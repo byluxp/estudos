@@ -22,7 +22,10 @@ Uma data sem contexto poderia ser:
 
 🗺️ Quando vemos o minimundo e seus contextos, enxergamos como organizar nossas partes chaves e com isso iniciamos o *MODELO CONCEITUAL*.  
 O modelo conceitual trabalhado vale-se do Diagrama Entidade-Relacionamento. Que, por sua vez, possui regras específicas para funcionamento.  
-[ MODELO ENTIDADE RELACIONAMENTO - DER]: 
+[ MODELO ENTIDADE RELACIONAMENTO - DER]:   
+<br><br>
+<img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/0405fa37-ee03-4088-8772-03b5ec79f94c" />
+<br><br>
 
 
 **As informações aqui descritas podem ser alteradas a qualquer momento conforme novos exemplos - entendimentos vão surgindo.   
