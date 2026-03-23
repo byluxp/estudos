@@ -6,8 +6,8 @@ Níveis completos:
 [ ] Aula 3
 [ ] Aula 4
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png" alt="logo Python">
 
-https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png
 
 **Observação**
 *Essa linguagem foi iniciada em curso avulso, o documentado aqui pulará algumas etapas já aprendidas antes de iniciar os registros*
