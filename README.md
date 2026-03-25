@@ -10,6 +10,15 @@ Nele realizarei:
 <br>
 
 Será utilizado como um **caderno** sendo atualizado conforme aprendizado, não refletindo um saber inerte mas em constante mudança.<br><br> 
+
+Comandos git principais:
+
+**Para clonar um repositório:**git clone (link do repositório github)  
+**Ver o que mudou:** git status
+**Commit**: git commit -m "*mensagem do arquivo*"
+**Puxar as informações do arquivo:** git pull
+**Enviar as informações:** git push
+
 <img width="533" height="300" alt="image" src="https://github.com/user-attachments/assets/da3efc78-c7a9-440d-8f27-450e3ba39b28" />
 
 
