@@ -13,7 +13,7 @@ Será utilizado como um **caderno** sendo atualizado conforme aprendizado, não 
 
 Comandos git principais:
 
-**Para clonar um repositório:**git clone (link do repositório github)  
+**Para clonar um repositório:** git clone (link do repositório github)  
 **Ver o que mudou:** git status
 **Commit**: git commit -m "*mensagem do arquivo*"
 **Puxar as informações do arquivo:** git pull
