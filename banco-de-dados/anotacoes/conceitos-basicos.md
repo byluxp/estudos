@@ -26,7 +26,18 @@ O modelo conceitual trabalhado vale-se do Diagrama Entidade-Relacionamento. Que,
 <br><br>
 <img width="600" height="252" alt="image" src="https://github.com/user-attachments/assets/0405fa37-ee03-4088-8772-03b5ec79f94c" />
 <br><br>
+**NORMALIZAÇÃO**  
 
+A estratégia de normalização segue o padrão FN: 1FN, 2FN, 3FN... Conforme modelo abaixo:  
+<img width="350" height="322" alt="image" src="https://github.com/user-attachments/assets/fb838309-ed97-42cc-af40-539b5ece5793" />  
+Seguindo as regras:  
+**1FN = ATRIBUTOS SIMPLES E MONOVALORADOS:** Busca evitar redundância e anomalias (inclusão, exclusão e alteração).  
+  Exemplo: Evitar que um certo dado seja alterado em lugar x e não seja alterado em lugar y. Ou que x sendo dependente influente y que é o padrão.   
+  **2FN = TODOS OS ATRIBUTOS DEVEM DEPENDER DAS CHAVES PRIMÁRIAS:**  
+    OBS: Se há apenas uma chave primária, já está na 2FN. Caso haja atributos que não se relacionam com a chave primária, criar outra tabela 1FN.  
+    **3FN = NÃO POSSUIR DEPENDÊNCIA TRANSITIVA:** 
+      Exemplo: relacionar com um atributo que depende da PK mas NÂO DEPENDER DELA DIRETAMENTE. Caso seja transitiva, criar uma tabela 1FN. 
+      
 
 **As informações aqui descritas podem ser alteradas a qualquer momento conforme novos exemplos - entendimentos vão surgindo.   
 O aprendizado é flutuante, não o enxergue como um caminho finalizado. O conhecimento aqui descrito está em constante expansão.**
