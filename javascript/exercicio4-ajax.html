@@ -1,0 +1,22 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+          <h1> API de testes httpbin</h1>
+        <form>
+            <label> Nome </label>
+            <input type="text" id="n1"/>
+            <button type="button" onclick="executar()"> Enviar </button>
+        </form>
+        <div id="retorno"></div>
+
+        <script src="exercicio4-ajax.js"></script>
+        <script>
+            const executar = () => {
+                const nome = document.getElementById("n1").value; // como definimos n1 como uma caixa, essa opção pega o valor de n1 e salva a informação em nome
+                ajax(nome, "retorno");
+            }
+        </script>
+    </body>
+</html>
