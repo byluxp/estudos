@@ -1,4 +1,9 @@
 <html>
+    <head>
+        <!-- colocando o link do bootstrap para usar os estilos -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
     <body>
         <script src="exercicio1.js"></script>
         <script>
@@ -9,24 +14,24 @@
                 let resultado = (oper==0)?somar(a,b):
                                 (oper==1)?subtrair(a,b):
                                 (oper==2)? multiplicar(a,b):    
-                                (oper==3)? dividir(a,b): exponencial(a,b);
+                                (oper==3)? dividir(a,b): exponencial(a,b); <!-- lembrando que se usar === precisa ser igual absoluto, por isso usamos == -->
                 document.getElementById("resp").innerHTML = `O resultado da operação é: ${resultado}`;
             }
         </script>
         <form>
-            <label>Valor A</label> <input type="number" id="v1"/>
-            <label>Valor B</label> <input type="number" id="v2"/>
-            <label> Operação </label>
-            <select id="oper">
+            <label class="form-label">Valor A</label> <input type="number" id="v1" class="form-control"/>
+            <label class="form-label">Valor B</label> <input type="number" id="v2" class="form-control"/>
+            <label class="form-label"> Operação </label>
+            <select id="oper" class="form-select">
                 <option>Soma</option>
                 <option>Subtração</option>
                 <option>Multiplicação</option>
                 <option>Divisão</option>
                 <option>Potência</option>
             </select>
-            <button type="button" onclick="executar()">Executar</button>
+            <button class="btn btn-primary" type="button" onclick="executar()">Executar</button>
         </form>
         
-        <div id="resp">O resultado aparece aqui</div>
+        <div class="form-control" id="resp">O resultado aparece aqui</div>
     </body>
 </html>
