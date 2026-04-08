@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1> API de testes randomusers.com </h1>
+        <button id="btn" onClick="executar()"> Gerar usuário </button>
+        <form>
+            <ul id="retorno"></ul> <!-- ul por ser lista de usuários -->
+            <script src="exercicio5-json.js"></script>
+            <script>
+                const executar = () => {
+                    getUsers("retorno");
+                }
+            </script>
+        </form>
+    </body>
+</html>
