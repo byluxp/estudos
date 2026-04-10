@@ -14,4 +14,4 @@ while opçao != 'S':
         if num < menor:
             menor = num
 print('A soma dos valores é: {}. Você digitou {} números. E a média dos valores é {}'.format(valor, escolhas, valor/escolhas))
-print ('O maior valor é {} e o menor valor é {}'.format(maior, menor))
+print (f'O maior valor é {maior} e o menor valor é {menor}')
