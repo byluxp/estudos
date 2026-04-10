@@ -1,15 +1,16 @@
-n = [] 
+lista = [] 
 maior = menor = 0
 
 for c in range(0,5):
-    n.append(int(input('Digite um número: '))) # pede para o usuário digitar um número
-    if c == 0: # se c for igual a 0
-        maior = menor = n[0] # maior e menor se tornam o número digitado
+    n = (int(input('Digite um número: '))) # pede para o usuário digitar um número
+    if c == 0 or n > (lista[-1]):  # se for o primeiro número digitado (c indica a posição) ou se for maior que o ultimo valor
+        lista.append(n) # adiciona o número à lista
     else:
-        if n[c] > maior: # se o número digitado for maior que o maior
-            maior = n[c] # maior se torna o número digitado
-        if n[c] < menor: # se o número digitado for menor que o menor
-            menor = n[c] # menor se torna o número digitado
-print(f'Os numeros digitados foram: {n}') # imprime os números digitados
-print(f'O maior número digitado foi: {maior} nas posições {list(enumerate([i for i, x in enumerate(n) if x == maior]))}') # imprime o maior número digitado
-print(f'O menor número digitado foi: {menor} nas posições {list(enumerate([i for i, x in enumerate(n) if x == menor]))}') # imprime o menor número digitado
+        pos = 0 # inicia a posição como 0
+        while pos < len(lista): # enquanto posição por < que o tamanho da lista
+            if n <= lista[pos]: # se o numero for <= a posição atual que está sendo verificada
+                lista.insert(pos, n) # insere o número na posição atual (o numero da posição atual vira o proximo da lista)
+                print(f'Numero adicionado na posição {pos} da lista') # imprime a mensagem de sucesso com a posição do número adicionado
+                break # sai do loop
+            pos += 1 # caso contrário, acrescenta +1 na posição para verificar a proxima posição  
+print(f'Os números digitados são: {lista}') # imprime os números digitados em ordem crescente
